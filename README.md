@@ -1,9 +1,12 @@
 # Split operation to improve encoder-decoder operation for inpainting
 
-We proposed a novel approach for high-fidelity image inpainting. Specifically, we use a single predictive network to conduct predictive filtering at the image level and deep feature level, simultaneously. The image-level filtering is to recover details, while 
+So far, Many inpainting models have been studied. These models utilize additional information or networks (e.g., landmark, edge, style, and filter) to improve the restoration performance. However, these developments cause the problem of increasing computer resources. To solve this problem, some researchers investigate the efficient structure model (e.g., recurrent structure, and residual connection structure) which consists of encoder-decoder structure. Eventually, additional networks are utilized to increase the performance of the efficient structure model.
+In this situation where the network structure is getting larger, we thought about how to reduce the parameters of model and improve the performance. As a result, we propose split operation to improve encoder-decoder operation for inpainting. As far as we know, this is the first study to develop encoder-decoder operation. 
+To achieve this goal, we investigated the existing up sampling operation and down sampling operation that make up encoder-decoder structure. Then we defined Pixel Split Operation (PSO) and Channel Split Operation (CSO) for improving encoder-decoder operation, and discussed how to effectively apply these two operations.
+To validate the effect of split operations, five metrics(PSNR, L1, SSIM, LPIPS, and FLOPs) evaluated the restoration performance  and the complexity of model on public datasets such as Place2 and CelebA. Furthermore, an ablation study was conducted to confirm the effect of the split operation on CelebA-HQ.
 
 <br><br>
-![Framework](./images/frameworks.png)
+![Framework](./images/intro.png)
 
 ## Prerequisites
 - Python 3
@@ -43,7 +46,7 @@ We proposed a novel approach for high-fidelity image inpainting. Specifically, w
 ## Architecture details
 
 <br><br>
-![Framework](./images/misf_arch.png)
+![Framework](./images/fig4.png)
 
 ## Pretrained models
 
@@ -69,7 +72,7 @@ Such as test on the face dataset, please follow the following:
 
 - Comparsion with SOTA, see paper for details.
 
-![Framework](./images/comparison.png)
+![Framework](./images/fig5.png)
 
 
 **More details are coming soon**
