@@ -1,6 +1,7 @@
-# MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting in CVPR2022
+# Split operation to improve encoder-decoder operation for inpainting
 
-We proposed a novel approach for high-fidelity image inpainting. Specifically, we use a single predictive network to conduct predictive filtering at the image level and deep feature level, simultaneously. The image-level filtering is to recover details, while the deep feature-level filtering is to complete semantic information, which leads to high-fidelity inpainting results. Our method outperforms state-of-the-art methods on three public datasets.[[ArXiv]](https://arxiv.org/abs/2203.06304)
+We proposed a novel approach for high-fidelity image inpainting. Specifically, we use a single predictive network to conduct predictive filtering at the image level and deep feature level, simultaneously. The image-level filtering is to recover details, while 
+
 <br><br>
 ![Framework](./images/frameworks.png)
 
@@ -76,12 +77,8 @@ Such as test on the face dataset, please follow the following:
 ## Bibtex
 
 ```
-@article{li2022misf,
-  title={MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting},
-  author={Li, Xiaoguang and Guo, Qing and Lin, Di and Li, Ping and Feng, Wei and Wnag, Song},
-  journal={CVPR},
-  year={2022}
-}
+
+
 ```
 
 ## Acknowledgments
