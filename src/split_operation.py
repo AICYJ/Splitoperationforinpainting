@@ -14,7 +14,7 @@ import torchvision
 import lpips
 
 
-class MISF():
+class Split_Operation():
     def __init__(self, config):
         self.config = config
 

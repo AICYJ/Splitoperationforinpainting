@@ -6,7 +6,8 @@ import torch
 import argparse
 from shutil import copyfile
 from src.config import Config
-from src.misf import MISF
+# from src.misf import MISF
+from src.split_operation import Split_Operation
 import torch.nn as nn
 
 
@@ -42,7 +43,7 @@ def main(mode=None):
 
 
     # build the model and initialize
-    model = MISF(config)
+    model = Split_Operation(config)
     model.load()
 
     iteration = model.inpaint_model.iteration
