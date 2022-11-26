@@ -12,7 +12,6 @@ We proposed a novel approach for high-fidelity image inpainting. Specifically, w
 
 - [Places2 Data of Places365-Standard](http://places2.csail.mit.edu/download.html)
 - [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
-- [Dunhuang]
 - [Mask](https://nv-adlr.github.io/publication/partialconv-inpainting)
 
 1. For data folder path (CelebA) organize them as following:
@@ -47,11 +46,9 @@ We proposed a novel approach for high-fidelity image inpainting. Specifically, w
 
 ## Pretrained models
 
-[CelebA](https://drive.google.com/drive/folders/14QVgtG5nbk5e00QRqEJBlBM5Q-aHF5Bd?usp=sharing)
+[CelebA](https://drive.google.com/file/d/1AaO3x97GliNbEHCdWSS3dm9I9Ft224gd/view?usp=share_link)
 
-[Places2](https://drive.google.com/drive/folders/14QVgtG5nbk5e00QRqEJBlBM5Q-aHF5Bd?usp=sharing)
-
-[Dunhuang](https://drive.google.com/drive/folders/14QVgtG5nbk5e00QRqEJBlBM5Q-aHF5Bd?usp=sharing)
+[Places2](https://drive.google.com/file/d/1qGkTExDZ0TnJMZXO9P4ARDHf5dj9zATM/view?usp=share_link)
 
 ## Train
 
