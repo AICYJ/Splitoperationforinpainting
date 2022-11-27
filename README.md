@@ -62,7 +62,7 @@ For the parameters: checkpoints/config.yml
 
 ## Test
 
-Such as test on the face dataset, please follow the following:
+For the test on the face dataset, please follow the following:
 1. Make sure you have downloaded the "celebA_InpaintingModel_dis.pth" and "celebA_InpaintingModel_gen.pth" and put that inside the checkpoints folder.
 2. Change "MODEL_LOAD: celebA_InpaintingModel" in checkpoints/config.yml.
 3. python test.py #For the parameters: checkpoints/config.yml
